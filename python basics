@@ -1,0 +1,36 @@
+
+car = {
+    "merk" : "toyota",
+    "color" : "black"
+}
+
+print(car)
+
+
+
+car = {"merk" : "honda"}
+
+print(car)
+
+car.update(
+    {
+        "merk" : "suzuki",    
+        "color" : "white"
+    }
+)
+
+print(car)
+
+car["year"] = 2010
+print(car)
+
+car.update(
+    {
+        "cc" : 1500,
+        "drive" : "front wheel"
+    }
+)
+print(car)
+
+car.pop("drive")
+print(car)
